@@ -1,0 +1,16 @@
+<img src="{{data.url }}" (click)="MoveToProduct(data)"><br><br>
+<p>{{data.name }}</p>
+<p>${{data.price}}</p>
+<select id="Amount" [(ngModel)]="data.Amount" (Change)="updatedata($event)">
+  <option [selected]>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+  <option>6</option>
+  <option>7</option>
+  <option>8</option>
+  <option>9</option>
+  <option>10</option>
+</select><br>
+<button (click)="addToCart(data)">Add to Cart</button>

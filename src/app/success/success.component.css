@@ -1,0 +1,19 @@
+button {
+  border: 0ch;
+  background-color: #33B5E5;
+  cursor: pointer;
+  width: 150px;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 3%;
+}
+div{
+  text-align: center;
+  margin-top: 9%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 120%;
+}
+span{
+  font-weight: bold;
+  font-size: 130%;
+}

@@ -1,0 +1,31 @@
+div {
+  margin: 0% 0% 13% 20%;
+  width: 180px;
+  height: 290px;
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  border: 2px rebeccapurple solid;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+button {
+  border: 0ch;
+  background-color: #33B5E5;
+  ;
+  cursor: pointer;
+  width: 130px;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 3%;
+}
+p{
+  margin-top: 100px;
+  margin-left: 55%;
+  font-weight: bold;
+  font-size: 200%;
+}

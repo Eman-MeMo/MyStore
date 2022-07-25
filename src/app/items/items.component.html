@@ -1,0 +1,8 @@
+<div class="BigDiv">
+<ng-container *ngFor="let item of items">
+  <app-item-in-list [data]="item"
+    (selectionChanged)="dateChanged($event)">
+  </app-item-in-list>
+</ng-container>
+</div>
+

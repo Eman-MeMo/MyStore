@@ -1,0 +1,15 @@
+<div class="BigDiv">
+  <div *ngFor="let item of cartList" class="SmallDiv">
+    <img src="{{item.url }}"><br>
+    {{item.name }}<br>
+    {{item.price}}<br>
+    <input type="number" id="Amount" [(ngModel)]="item.Amount" min="0"(ngModelChange)="reCalculate($event)">
+     <br>
+     <button (click)="RemoveItem(item)">Remove From Cart</button>
+  </div>
+<br>
+</div>
+  <p>Total:${{cost}}</p>
+<app-form></app-form>
+
+<router-outlet></router-outlet>

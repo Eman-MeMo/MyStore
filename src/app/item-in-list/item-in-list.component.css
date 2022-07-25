@@ -1,0 +1,41 @@
+.SmallDiv {
+  width: 267px;
+  height: 4500px;
+  padding: 20px;
+  text-align: center;
+  margin: 15px;
+}
+
+#Amount {
+  background-color: rgb(34, 30, 30);
+  border-radius: 20%;
+  color: aliceblue;
+  margin-left: 42%;
+}
+
+p{
+  margin-left: 40%;
+}
+img {
+  border: 2px rebeccapurple solid;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+button {
+  border: 0ch;
+  background-color: #33B5E5;
+  cursor: pointer;
+  width: 130px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 30%;
+  border-radius: 3%;
+  margin-bottom: 50px;
+}
+
+

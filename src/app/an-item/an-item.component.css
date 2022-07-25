@@ -1,0 +1,48 @@
+.image{
+  margin: 10% 2% 0% 32%;
+    width: 350px;
+    height: 220px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+.info{
+  margin-top: 20%;
+  margin-left: 55px;
+  font-family: initial;
+  font-weight: 600;
+  font-size: 18px;
+}
+a{
+  font-size: 55%;
+}
+a:hover{
+  color: rgb(61, 174, 182);
+}
+#Amount {
+  background-color: rgb(34, 30, 30);
+  border-radius: 20%;
+  color: aliceblue;
+  width:50px;
+  height: 20px;
+}
+
+img {
+  border: 2px rebeccapurple solid;
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+
+}
+button {
+  border: 0ch;
+  background-color: #33B5E5;;
+  cursor: pointer;
+  width: 130px;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 3%;
+}
+p{
+  display: block;
+}

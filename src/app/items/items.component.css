@@ -1,0 +1,8 @@
+ .BigDiv{
+    width: 1000px;
+    height: 750px;
+    margin: 0% 0% 15% 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+  

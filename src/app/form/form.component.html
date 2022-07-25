@@ -1,0 +1,23 @@
+<form #form="ngForm" [formGroup]="MyForm" (ngSubmit)="onSubmit()" class="box">
+<label>Full Name</label>
+<input type="text" formControlName="name" minlength="3" class="form-control" placeholder="Minimum 3 characters"><br>
+<div *ngIf="name.invalid && (name.touched || name.dirty)">
+<span class="error" *ngIf="name.errors?.required">*Full Name is Required</span>
+<span class="error" *ngIf="name.errors?.pattern">*Enter Only characters</span>
+<span class="error" *ngIf="name.errors?.minlength">*Full Name must be at least 3 characters long.</span>
+</div>
+<label>Address</label>
+  <input type="text" formControlName="Add" minlength="6" class="form-control" placeholder="Minimum 6 characters"><br>
+  <div *ngIf="Add.invalid && (Add.touched || Add.dirty)">
+    <span class="error" *ngIf="Add.errors?.required">*Address is Required</span>
+    <span class="error" *ngIf="Add.errors?.minlength">*Address must be at least 6 characters long.</span>
+  </div>
+  <label>Credit Cart Number</label>
+  <input type="text" formControlName="cartNum" minlength="16" class="form-control" placeholder="Minimum 16 digits"><br>
+<div *ngIf="cartNum.invalid && (cartNum.touched || cartNum.dirty)">
+  <span class="error" *ngIf="cartNum.errors?.required">*Credit Cart Number is Required</span>
+  <span class="error" *ngIf="cartNum.errors?.pattern">*Enter Only digitss</span>
+  <span class="error" *ngIf="cartNum.errors?.minlength">*Credit Cart Number must be at least 16 digitss long.</span>
+</div>
+  <button class="button" type="submit" [disabled]="form.invalid" value="Submit" (click)="onSubmit()">Submit</button>
+</form>
